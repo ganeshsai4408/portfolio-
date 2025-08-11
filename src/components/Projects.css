@@ -1,0 +1,101 @@
+.projects-section {
+  padding: 60px 80px;
+  color: white;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.hash {
+  color: #c084fc;
+  margin-right: 8px;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #c084fc;
+  margin-left: 8px;
+}
+
+.project-card {
+  display: flex;
+  gap:150px;
+  margin-bottom: 50px;
+}
+
+.project-card img {
+  width: 300px;
+  border: 1px solid #666;
+}
+
+.project-info p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 16px;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.tag {
+  padding: 4px 10px;
+  border: 1px solid #c084fc;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #c084fc;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+.project-image-container {
+  width: 331px;
+  border: 1px solid #444;
+  overflow: hidden;
+}
+
+.project-image-container img {
+  width: 100%;
+  display: block;
+}
+
+.project-caption {
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-top: 1px solid #444; /* divider line */
+  font-family: 'Fira Code', monospace;
+  font-weight: 400;
+  font-size: 14px;
+  color: #c084fc;
+}
+
+

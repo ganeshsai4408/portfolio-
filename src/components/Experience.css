@@ -1,0 +1,101 @@
+.experience-section {
+  max-width: 1124px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.experience-section .section-title {
+  font-family: 'Fira Code', monospace;
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2rem;
+}
+
+.experience-section .hash {
+  color: #c084fc;
+}
+
+.experience-section .line {
+  flex: 1;
+  height: 1px;
+  background-color: #c084fc;
+}
+
+.experience-card {
+  border: 1px solid #c084fc;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: transparent;
+  margin-top: 1rem;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #374151;
+}
+
+.role {
+  font-family: 'Fira Code', monospace;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.date {
+  font-family: 'Fira Code', monospace;
+  font-size: 14px;
+  color: #fff;
+  text-align: right;
+}
+
+.experience-content {
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.experience-content p {
+  margin: 0 0 1rem 0;
+  font-size: 14px;
+}
+
+.experience-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .experience-section {
+    padding: 1rem;
+  }
+  
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .date {
+    text-align: left;
+  }
+  
+  .experience-section .section-title {
+    font-size: 20px;
+  }
+  
+  .role {
+    font-size: 16px;
+  }
+} 
+.links {
+  display: flex;
+  gap: 10px;
+}

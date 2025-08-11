@@ -1,0 +1,268 @@
+.contact-section {
+  max-width: 1124px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.contact-section .section-title {
+  font-family: 'Fira Code', monospace;
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2rem;
+}
+
+.contact-section .hash {
+  color: #c084fc;
+}
+
+.contact-section .line {
+  flex: 1;
+  height: 1px;
+  background-color: #c084fc;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contact-left {
+  display: flex;
+  align-items: center;
+}
+
+.contact-description {
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contact-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.message-card {
+  border: 1px solid #9ca3af;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: transparent;
+  min-width: 280px;
+}
+
+.message-title {
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-icon {
+  font-size: 16px; /* small size */
+  color: white; /* pure white */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon a {
+  color: white; /* link stays white */
+  text-decoration: none;
+}
+.social-icon {
+  font-size: 16px; /* small size */
+  color: white; /* pure white */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon a {
+  color: white; /* link stays white */
+  text-decoration: none;
+}
+
+
+
+
+.contact-text {
+  font-family: 'Fira Code', monospace;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #9ca3af;
+  margin: 3rem 0;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.initials-box {
+  background-color: #c084fc;
+  color: #fff;
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 4px;
+  min-width: 32px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.first-name {
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.last-name {
+  font-family: 'Fira Code', monospace;
+  color: #c084fc;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.subtitle {
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.media-title {
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #c084fc;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  font-size: 12px;
+  opacity: 0.7;
+  padding: 1rem 0;
+  border-top: 1px solid #374151;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 1rem;
+  }
+  
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .contact-right {
+    justify-content: flex-start;
+  }
+  
+  .message-card {
+    min-width: auto;
+    width: 100%;
+  }
+  
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .footer-right {
+    align-items: flex-start;
+  }
+  
+  .contact-section .section-title {
+    font-size: 20px;
+  }
+  
+  .contact-description {
+    font-size: 14px;
+  }
+} 

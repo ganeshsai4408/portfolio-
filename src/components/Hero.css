@@ -1,0 +1,78 @@
+.hero {
+  
+  color: white;
+  padding: 3rem 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.purple {
+  color: #c084fc;
+}
+
+p {
+  color: #bbb;
+  max-width: 500px;
+  margin: 1rem 0;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.resume-btn {
+  border: 2px solid #c084fc;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: #c084fc;
+  color: black;
+}
+
+.social-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #6b7280; /* thin border */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b7280; /* icon color */
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.icon-circle:hover {
+  color: #c084fc; /* hover color */
+  border-color: #c084fc;
+}
+
+
+.icon-btn:hover {
+  border-color: #c084fc;
+  color: #c084fc;
+}
+.hero h2 {
+  font-family: 'Fira Code', monospace;
+  font-weight: 600;       /* SemiBold in Figma */
+  font-size: 40px;
+  line-height: 100%;      /* 1 in CSS */
+  letter-spacing: 0;      /* default */
+}
