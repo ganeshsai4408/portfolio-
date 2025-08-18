@@ -17,7 +17,7 @@ export default function Hero() {
           I love building things that live on the internet from sleek, responsive websites to AI-powered applications. Every project I take on is a chance to learn, innovate, and push boundaries.
         </p>
         <div className="buttons">
-          <a href="/GaneshBendre(1)[1].pdf" download className="resume-btn">
+          <a href="/G.pdf (1).pdf" download className="resume-btn">
             Resume <FiDownload />
           </a>
           <div className="social-container">
