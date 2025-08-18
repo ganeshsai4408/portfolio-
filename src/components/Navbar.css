@@ -67,3 +67,12 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 480px) {
+  .nav-links {
+    gap: 0.5rem;
+  }
+  .nav-links a {
+    font-size: 11px;
+  }
+}

@@ -43,35 +43,8 @@ function Projects() {
       </div>
 
       {/* project2 */}
-      <div className="project-card">
-        <div className="project-info">
-          <p>
-            A fast and responsive notes application built with React.js, featuring 1-second keyword search and local storage for offline persistence.
-          </p>
-          <div className="tags">
-            <span className="tag">React.js</span>
-            <span className="tag">Local Storage</span>
-            
-            <span className="tag">Responsive</span>
-          </div>
-          <div className="links">
-            <a href="https://notes-app-nxbn.vercel.app/" className="btn"><FiExternalLink/> Live</a>
-          </div>
-        </div>
-        <div className="project-image-container">
-          
-        <img src={projectImage2}  alt="Sign Language Recognition" />
-        <div className="project-caption">Notes App</div>
-        </div>
-        
-      </div>
-      {/* project3 */}
-      <div className="project-card">
-        <div className="project-image-container">
-          
-        <img src={projectImage3}  alt="Sign Language Recognition" />
-        <div className="project-caption">AI Ticketing System</div>
-        </div>
+       <div className="project-card">
+      
         <div className="project-info">
           <p>
             An AI-powered ticket routing system using Inngest workflows to intelligently categorize and assign tickets based on skill-based admin matching, enabling efficient and automated support routing.
@@ -89,7 +62,38 @@ function Projects() {
             <a href="https://ai-ticket-system-frontend-nw7b.vercel.app/" className="btn"><FiExternalLink/>Live</a>
           </div>
         </div>
+           <div className="project-image-container">
+          
+        <img src={projectImage3}  alt="Sign Language Recognition" />
+        <div className="project-caption">AI Ticketing System</div>
+        </div>
       </div>
+    
+      {/* project3 */}
+      <div className="project-card">
+        <div className="project-image-container">
+          
+        <img src={projectImage2}  alt="Sign Language Recognition" />
+        <div className="project-caption">Notes App</div>
+        </div>
+        <div className="project-info">
+          <p>
+            A fast and responsive notes application built with React.js, featuring 1-second keyword search and local storage for offline persistence.
+          </p>
+          <div className="tags">
+            <span className="tag">React.js</span>
+            <span className="tag">Local Storage</span>
+            
+            <span className="tag">Responsive</span>
+          </div>
+          <div className="links">
+            <a href="https://notes-app-nxbn.vercel.app/" className="btn"><FiExternalLink/> Live</a>
+          </div>
+        </div>
+        
+        
+      </div>
+      
       {/* project4 */}
       <div className="project-card">
         <div className="project-info">

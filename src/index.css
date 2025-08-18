@@ -47,3 +47,25 @@ section {
 a, button {
   transition: all 0.3s ease;
 }
+
+/* Global responsive helpers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    padding: 2rem 0;
+  }
+}

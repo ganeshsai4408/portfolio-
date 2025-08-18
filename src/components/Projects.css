@@ -98,4 +98,50 @@
   color: #c084fc;
 }
 
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+  .projects-section {
+    padding: 40px 24px;
+  }
+  .project-card {
+    gap: 40px;
+  }
+  .project-card img {
+    width: 280px;
+  }
+}
 
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 32px 16px;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  .project-card {
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+  }
+  .project-image-container {
+    width: 100%;
+    order: 0; /* always show image first on mobile */
+  }
+  .project-card img {
+    width: 100%;
+  }
+  .project-info {
+    order: 1; /* content follows image on mobile */
+    width: 100%;
+  }
+  .project-info p {
+    font-size: 13px;
+  }
+  .links {
+    flex-wrap: wrap;
+  }
+  .btn {
+    font-size: 13px;
+  }
+}
