@@ -20,7 +20,7 @@ function Experience() {
           <p>
             Designed and deployed the club's website using HTML, CSS, and JavaScript, improving UX and increasing member engagement by 50%. Built a fully responsive UI, reducing mobile bounce rates by 30%, and maintained 100% uptime via GitHub during events.
           <div className="links">
-                      <a href="#" className="btn"><FiExternalLink /> Live </a>
+                      <a href="https://github.com/epsilonpi-club" className="btn"><FiExternalLink /> Live </a>
           </div>
           </p>
           <p>
